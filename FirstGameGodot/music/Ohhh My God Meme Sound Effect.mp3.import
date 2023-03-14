@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Ohhh My God Meme Sound Effect.mp3-4eca16a8e967d6b01fd74ec4250a43a1.mp3str"
+
+[deps]
+
+source_file="res://music/Ohhh My God Meme Sound Effect.mp3"
+dest_files=[ "res://.import/Ohhh My God Meme Sound Effect.mp3-4eca16a8e967d6b01fd74ec4250a43a1.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
