@@ -18,3 +18,7 @@ Uso de [Http Request](https://docs.godotengine.org/es/stable/tutorials/networkin
 ## [Pong Godot V2](PongGodot_V2)
 
 Versión actualizada con un *menú de pausa*, que permite continuar la partida o cerrar el juego; [*tutorial*](https://www.youtube.com/watch?v=Su3pU14YzeY&ab_channel=rayuserp) usado.
+
+## [Lectura y escritura de ficheros básicos](LecturaEscrituraFicheros)
+
+Uso del tipo [File](https://docs.godotengine.org/es/stable/classes/class_file.html) y manejo de [rutas](https://docs.godotengine.org/es/stable/tutorials/io/data_paths.html) para leer o escribir en ficheros.
