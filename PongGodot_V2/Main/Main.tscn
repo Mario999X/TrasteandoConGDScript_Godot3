@@ -1,0 +1,136 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Jugadores/Jugador_p1.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Jugadores/Jugador_p2.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Bola/Bola.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Main/Main.gd" type="Script" id=4]
+[ext_resource path="res://assets/font/Xolonium-Regular.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://assets/music/Guts Theme.mp3" type="AudioStream" id=6]
+[ext_resource path="res://assets/music/SIUUUUUU.mp3" type="AudioStream" id=7]
+[ext_resource path="res://UI/PauseMenu.tscn" type="PackedScene" id=8]
+
+[sub_resource type="DynamicFont" id=3]
+size = 23
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=4]
+font_data = ExtResource( 5 )
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 640.75, 17.75 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 46, 350 )
+
+[node name="Main" type="Node"]
+script = ExtResource( 4 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="PuntuacionP1" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -202.0
+margin_top = -7.0
+margin_right = -20.0
+margin_bottom = 7.0
+custom_fonts/font = SubResource( 3 )
+text = "PUNTUACION1"
+
+[node name="PuntuacionP2" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 200.0
+margin_top = -7.0
+margin_right = 20.0
+margin_bottom = 7.0
+custom_fonts/font = SubResource( 3 )
+text = "PUNTUACION2"
+
+[node name="CountdownText" type="Label" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -17.0
+margin_top = -177.0
+margin_right = 180.0
+margin_bottom = -136.0
+custom_fonts/font = SubResource( 3 )
+text = "CUENTA ATRAS"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="WinnerText" type="Label" parent="."]
+visible = false
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = 1.0
+margin_top = 298.0
+margin_right = 1.0
+margin_bottom = 350.0
+custom_fonts/font = SubResource( 4 )
+text = "GANADOR AQUI"
+align = 1
+valign = 1
+
+[node name="JugadorP1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 35, 360 )
+
+[node name="JugadorP2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1245, 360 )
+
+[node name="Pared_superior" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Pared_superior"]
+position = Vector2( 644, -9 )
+shape = SubResource( 1 )
+
+[node name="Pared_inferior" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Pared_inferior"]
+position = Vector2( 641, 730 )
+shape = SubResource( 1 )
+
+[node name="Bola" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 360 )
+
+[node name="Izquierda" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Izquierda"]
+position = Vector2( -46, 362 )
+shape = SubResource( 2 )
+
+[node name="Derecha" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Derecha"]
+position = Vector2( 1330, 362 )
+shape = SubResource( 2 )
+
+[node name="CountdownTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[node name="LoserSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+
+[node name="WinnerSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+
+[node name="PauseMenu" parent="." instance=ExtResource( 8 )]
+pause_mode = 2
+visible = false
+
+[connection signal="body_entered" from="Izquierda" to="." method="_on_Izquierda_body_entered"]
+[connection signal="body_entered" from="Derecha" to="." method="_on_Derecha_body_entered"]
+[connection signal="timeout" from="CountdownTimer" to="." method="_on_CountdownTimer_timeout"]

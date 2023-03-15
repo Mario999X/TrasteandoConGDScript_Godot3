@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Bounce Effect.mp3-73acd4eddc7ee9580efe2ff72de38e2e.mp3str"
+
+[deps]
+
+source_file="res://assets/music/Bounce Effect.mp3"
+dest_files=[ "res://.import/Bounce Effect.mp3-73acd4eddc7ee9580efe2ff72de38e2e.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

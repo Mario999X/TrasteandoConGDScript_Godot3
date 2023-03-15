@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Guts Theme.mp3-f81634729cda4eb5f9fdec3abbeeabe1.mp3str"
+
+[deps]
+
+source_file="res://assets/music/Guts Theme.mp3"
+dest_files=[ "res://.import/Guts Theme.mp3-f81634729cda4eb5f9fdec3abbeeabe1.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
