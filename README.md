@@ -6,7 +6,7 @@ Esta es una réplica del tutorial ofrecido en la [documentación oficial de Godo
 
 ## [Pong Godot](PongGodot)
 
-Recreación de [PongFX](https://github.com/Mario999X/PongFX) que realice hace un par de años con *JavaFX*,
+Recreación de [PongFX](https://github.com/Mario999X/PongFX) que realicé hace un par de años con *JavaFX*,
 y siguiendo un [tutorial de youtube](https://www.youtube.com/watch?v=kr1BoEbuveI).
 
 ## [Consumir API](ConsumeAPI)
