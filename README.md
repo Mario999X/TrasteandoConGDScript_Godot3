@@ -12,3 +12,7 @@ y siguiendo un [tutorial de youtube](https://www.youtube.com/watch?v=kr1BoEbuveI
 ## [Consumir API](ConsumeAPI)
 
 Uso de [Http Request](https://docs.godotengine.org/es/stable/tutorials/networking/http_request_class.html) y la clase [JSON](https://docs.godotengine.org/es/stable/classes/class_json.html#class-json) para consumir la [PokéAPI](https://pokeapi.co/) y mostrar el json obtenido y datos relevantes del mismo, asi como controlar errores en la búsqueda realizada *(nombre o id incorrectos)*.
+
+## [Pong Godot V2](PongGodot_V2)
+
+Versión actualizada con un *menú de pausa*, que permite continuar la partida o cerrar el juego; [*tutorial*](https://www.youtube.com/watch?v=Su3pU14YzeY&ab_channel=rayuserp) usado.
