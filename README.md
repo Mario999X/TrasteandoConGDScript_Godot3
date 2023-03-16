@@ -26,3 +26,13 @@ Uso del tipo [File](https://docs.godotengine.org/es/stable/classes/class_file.ht
 ## [Cambio de Escenas](SceneChange)
 
 Demostración de cambios de escenas simples para el movimiento entre distintos menús a través de botones.
+
+## [Internacionalización](InternacionalizacionBasica)
+
+Demostración básica de implementar traducciones y cambios en un texto de ejemplo usando botones.
+Se ha usado la [documentación oficial](https://docs.godotengine.org/es/stable/tutorials/assets_pipeline/importing_translations.html), la [guía oficial de localización](https://docs.godotengine.org/es/stable/tutorials/i18n/locales.html#doc-locales) y el siguiente [tutorial](https://www.youtube.com/watch?v=1Pxa5WgVLio&ab_channel=FinePointCGI) hasta el **minuto 10:30**. 
+
+**Explicación importante**: Se usa un *CSV* para las traducciones, y **excel** no es la mejor aplicación para esta labor, como bien se dice en la *documentación*, y buscando por internet, he logrado hallar una solución; el libro de excel se exporta a csv UTF8, luego se abre en un bloc de notas y se cambia el delimitador: ";" -> ",".
+Si el csv esta mal desde el principio, la herramienta de importación de Godot no permite hacer el cambio del delimitador, así que toca hacerlo a mano. 
+
+Otras opciones son usar **LibreOffice** o **Google Sheets**, que permiten la exportación de la manera que Godot acepta.
