@@ -22,3 +22,7 @@ Versión actualizada con un *menú de pausa*, que permite continuar la partida o
 ## [Lectura y escritura de ficheros básicos](LecturaEscrituraFicheros)
 
 Uso del tipo [File](https://docs.godotengine.org/es/stable/classes/class_file.html) y manejo de [rutas](https://docs.godotengine.org/es/stable/tutorials/io/data_paths.html) para leer o escribir en ficheros.
+
+## [Cambio de Escenas](SceneChange)
+
+Demostración de cambios de escenas simples para el movimiento entre distintos menús a través de botones.
