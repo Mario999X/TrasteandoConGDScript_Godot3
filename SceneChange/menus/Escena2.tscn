@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://menus/Escena2.gd" type="Script" id=1]
+
+[node name="Escena2" type="Node"]
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+anchor_right = 1.0
+margin_bottom = 107.0
+text = "ESCENA 2"
+align = 1
+valign = 1
+
+[node name="ButtonBack" type="Button" parent="."]
+margin_left = 407.0
+margin_top = 362.0
+margin_right = 606.0
+margin_bottom = 430.0
+text = "Regresar"
+
+[connection signal="pressed" from="ButtonBack" to="." method="_on_ButtonBack_pressed"]
