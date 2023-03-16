@@ -27,7 +27,7 @@ Uso del tipo [File](https://docs.godotengine.org/es/stable/classes/class_file.ht
 
 Demostración de cambios de escenas simples para el movimiento entre distintos menús a través de botones.
 
-## [Internacionalización](InternacionalizacionBasica)
+## [Internacionalización Básica](InternacionalizacionBasica)
 
 Demostración básica de implementar traducciones y cambios en un texto de ejemplo usando botones.
 Se ha usado la [documentación oficial](https://docs.godotengine.org/es/stable/tutorials/assets_pipeline/importing_translations.html), la [guía oficial de localización](https://docs.godotengine.org/es/stable/tutorials/i18n/locales.html#doc-locales) y el siguiente [tutorial](https://www.youtube.com/watch?v=1Pxa5WgVLio&ab_channel=FinePointCGI) hasta el **minuto 10:30**. 
