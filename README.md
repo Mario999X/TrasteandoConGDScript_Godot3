@@ -6,7 +6,7 @@ Primeros proyectos realizados usando el lenguaje [**GDScript**](https://docs.god
 
 Esta es una réplica del tutorial ofrecido en la [documentación oficial de Godot](https://docs.godotengine.org/es/stable/getting_started/first_2d_game/index.html).
 
-## [Pong Godot](PongGodot)
+## [Pong Godot V1](PongGodot)
 
 Recreación de [PongFX](https://github.com/Mario999X/PongFX) que realicé hace un par de años con *JavaFX*,
 y siguiendo un [tutorial de youtube](https://www.youtube.com/watch?v=kr1BoEbuveI).
@@ -45,7 +45,11 @@ Uso de [ConfigFile](https://docs.godotengine.org/en/3.3/classes/class_configfile
 
 Haciendo uso de la [documentación](https://docs.godotengine.org/es/stable/tutorials/networking/http_request_class.html) y de una [API que permite hacer POST](https://jsonplaceholder.typicode.com/), realizamos una llamada y devolvemos la respuesta por la terminal.
 
+## [Pong Godot V3](PongGodot_V3)
 
-
-
+Versión actualizada con:
+- **Menú principal**.
+- Agregada la opción de salir al *menú principal* desde el *menú de pausa*.
+- Internacionalización español-inglés, almacenada en un archivo de configuración.
+- Cambio en la jugabilidad de la bola: ahora aumenta la velocidad solo con el rebote de los propios jugadores; además, su velocidad base ha sido aumentada.
 
