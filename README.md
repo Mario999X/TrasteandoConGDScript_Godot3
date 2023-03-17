@@ -36,3 +36,7 @@ Se ha usado la [documentación oficial](https://docs.godotengine.org/es/stable/t
 Si el csv esta mal desde el principio, la herramienta de importación de Godot no permite hacer el cambio del delimitador, así que toca hacerlo a mano. 
 
 Otras opciones son usar **LibreOffice** o **Google Sheets**, que permiten la exportación de la manera que Godot acepta.
+
+## [Lectura y escritura de ficheros de Configuración](LecturaEscrituraFicherosConfig)
+
+Uso de [ConfigFile](https://docs.godotengine.org/en/3.3/classes/class_configfile.html) para almacenar datos de manera persistente de manera local. Se ha usado el siguiente [tutorial](https://www.youtube.com/watch?v=ygGaN1EOQEA&list=PLPzj9u0kjrK7J-4HwgdcDOkKSh6ndXIOZ&index=1&ab_channel=TheBuffED) para poder aplicarlo como *singleton* y  tener acceso público desde el resto del proyecto.
