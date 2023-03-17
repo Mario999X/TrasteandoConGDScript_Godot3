@@ -11,7 +11,7 @@ Esta es una réplica del tutorial ofrecido en la [documentación oficial de Godo
 Recreación de [PongFX](https://github.com/Mario999X/PongFX) que realicé hace un par de años con *JavaFX*,
 y siguiendo un [tutorial de youtube](https://www.youtube.com/watch?v=kr1BoEbuveI).
 
-## [Consumir API](ConsumeAPI)
+## [Consumir una API -- Parte I](ConsumeAPI)
 
 Uso de [Http Request](https://docs.godotengine.org/es/stable/tutorials/networking/http_request_class.html) y la clase [JSON](https://docs.godotengine.org/es/stable/classes/class_json.html#class-json) para consumir la [PokéAPI](https://pokeapi.co/) y mostrar el json obtenido y datos relevantes del mismo, asi como controlar errores en la búsqueda realizada *(nombre o id incorrectos)*.
 
@@ -40,3 +40,12 @@ Otras opciones son usar **LibreOffice** o **Google Sheets**, que permiten la exp
 ## [Lectura y escritura de ficheros de Configuración](LecturaEscrituraFicherosConfig)
 
 Uso de [ConfigFile](https://docs.godotengine.org/en/3.3/classes/class_configfile.html) para almacenar datos de manera persistente de manera local. Se ha usado el siguiente [tutorial](https://www.youtube.com/watch?v=ygGaN1EOQEA&list=PLPzj9u0kjrK7J-4HwgdcDOkKSh6ndXIOZ&index=1&ab_channel=TheBuffED) para poder aplicarlo como *singleton* y  tener acceso público desde el resto del proyecto.
+
+## [Consumir una API -- Parte II](ConsumeAPI_II)
+
+Haciendo uso de la [documentación](https://docs.godotengine.org/es/stable/tutorials/networking/http_request_class.html) y de una [API que permite hacer POST](https://jsonplaceholder.typicode.com/), realizamos una llamada y devolvemos la respuesta por la terminal.
+
+
+
+
+
