@@ -60,6 +60,33 @@ Versión actualizada con:
 
 - Mecánica de seguimiento del puntero del ratón, y de disparo, además de una mecánica de recarga de munición. Se ha seguido el siguiente [video](https://www.youtube.com/watch?v=ggt05fCiH7M&t=1219s&ab_channel=jmbiv) para el sistema de *seguimiento* y parcialmente para el sistema de *disparo*; y para la *recarga* se usó una respuesta de la siguiente [fuente](https://godotengine.org/qa/76664/how-could-i-implement-a-reload-system).
 
+## [-- GUÍA DE ESTILOS -- ](https://docs.godotengine.org/es/stable/tutorials/scripting/gdscript/gdscript_styleguide.html)
+
+Menciones:
+
+- Clases y nodos: PascalCase
+- Funciones y variables: snake_case
+  - Uso de _ para funciones/variables privadas
+- Constantes: CONSTANT_CASE
+
+Orden de código simplificado:
+
+01. class_name
+02. "#" docstring
+03. signals
+04. enums
+05. constants
+06. exported variables
+07. public variables
+08. private variables
+09. onready variables
+
+10. optional built-in virtual _init method
+11. built-in virtual _ready method
+12. remaining built-in virtual methods
+13. public methods
+14. private methods
+
 ## -- GENERACIÓN DE EJECUTABLES --
 
 Se ha seguido la [documentación oficial](https://docs.godotengine.org/es/stable/tutorials/export/exporting_projects.html).
