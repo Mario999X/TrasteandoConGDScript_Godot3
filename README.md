@@ -54,6 +54,11 @@ Versión actualizada con:
 - Cambio en la jugabilidad de la bola: ahora aumenta la velocidad solo con el rebote de los propios jugadores; además, su velocidad base ha sido aumentada.
 
 
+## [Point & Shoot](PointAndShoot)
+
+- Demostración básica de detecciones de *Area2D* frente a: ellas mismas y con *KinematicBody2D*.
+
+- Mecánica de seguimiento del puntero del ratón, y de disparo, además de una mecánica de recarga de munición. Se ha seguido el siguiente [video](https://www.youtube.com/watch?v=ggt05fCiH7M&t=1219s&ab_channel=jmbiv) para el sistema de *seguimiento* y para la *recarga* se usó una respuesta de la siguiente [fuente](https://godotengine.org/qa/76664/how-could-i-implement-a-reload-system).
 
 ## -- GENERACIÓN DE EJECUTABLES --
 
@@ -63,5 +68,3 @@ Para realizar las distintas exportaciones, se requiere la descarga de las planti
 Para exportar el *icono* de la aplicación en windows, será necesario usar una herramienta extra llamada [rcedit](https://github.com/electron/rcedit/releases), como bien se menciona en otro punto de la [documentación](https://docs.godotengine.org/es/stable/tutorials/export/changing_application_icon_for_windows.html). 
 
 Finalmente, se siguió el siguiente [tutorial](https://www.youtube.com/watch?v=nyHFFL_A3aM&ab_channel=MartinSenges).
-
-
