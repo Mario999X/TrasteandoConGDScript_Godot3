@@ -63,7 +63,7 @@ Versión actualizada con:
 
 ## [Tabla de "puntuaciones" - Usuarios](ScoreTable) <!-- Este ha sido absurdamente complicado -->
 
-Se muestra como construir una tabla y como generar filas por cada usuario que exista.
+Se muestra como construir una tabla y como generar filas por cada usuario.
 
 Se obtienen de la siguiente [API](https://jsonplaceholder.typicode.com/) y se han usado los siguientes videos como guía para el ejemplo:
 - [Enlace 1](https://www.youtube.com/watch?v=GdEOyWjsWOQ&ab_channel=YusaStudios) -> **Diseño de la tabla**.
