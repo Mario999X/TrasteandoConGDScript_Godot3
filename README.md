@@ -60,6 +60,15 @@ Versión actualizada con:
 
 - Mecánica de seguimiento del puntero del ratón, y de disparo, además de una mecánica de recarga de munición. Se ha seguido el siguiente [video](https://www.youtube.com/watch?v=ggt05fCiH7M&t=1219s&ab_channel=jmbiv) para el sistema de *seguimiento* y parcialmente para el sistema de *disparo*; y para la *recarga* se usó una respuesta de la siguiente [fuente](https://godotengine.org/qa/76664/how-could-i-implement-a-reload-system).
 
+
+## [Tabla de "puntuaciones" - Usuarios](ScoreTable) <!-- Este ha sido absurdamente complicado -->
+
+Se muestra como construir una tabla y como generar filas por cada usuario que exista.
+
+Se obtienen de la siguiente [API](https://jsonplaceholder.typicode.com/) y se han usado los siguientes videos como guía para el ejemplo:
+- [Enlace 1](https://www.youtube.com/watch?v=GdEOyWjsWOQ&ab_channel=YusaStudios) -> **Diseño de la tabla**.
+- [Enlace 2](https://www.youtube.com/watch?v=SxbvW73ccxk&ab_channel=GeneralistProgrammer) -> **El como obtener los usuarios de la API**.
+
 ## [-- GUÍA DE ESTILOS -- ](https://docs.godotengine.org/es/stable/tutorials/scripting/gdscript/gdscript_styleguide.html)
 
 Menciones:
