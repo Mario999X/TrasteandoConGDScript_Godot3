@@ -1,0 +1,77 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://TablaPuntuaciones.gd" type="Script" id=1]
+[ext_resource path="res://ObtenerUsuarios.tscn" type="PackedScene" id=2]
+
+[node name="TablaPuntuaciones" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="PanelContainer" type="PanelContainer" parent="VBoxContainer"]
+margin_right = 1024.0
+margin_bottom = 28.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/PanelContainer"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 1017.0
+margin_bottom = 21.0
+
+[node name="1" type="Label" parent="VBoxContainer/PanelContainer/HBoxContainer"]
+margin_right = 198.0
+margin_bottom = 14.0
+size_flags_horizontal = 3
+text = "ID"
+
+[node name="2" type="Label" parent="VBoxContainer/PanelContainer/HBoxContainer"]
+margin_left = 202.0
+margin_right = 401.0
+margin_bottom = 14.0
+size_flags_horizontal = 3
+text = "Name"
+
+[node name="3" type="Label" parent="VBoxContainer/PanelContainer/HBoxContainer"]
+margin_left = 405.0
+margin_right = 604.0
+margin_bottom = 14.0
+size_flags_horizontal = 3
+text = "Username"
+
+[node name="4" type="Label" parent="VBoxContainer/PanelContainer/HBoxContainer"]
+margin_left = 608.0
+margin_right = 807.0
+margin_bottom = 14.0
+size_flags_horizontal = 3
+text = "Email"
+
+[node name="5" type="Label" parent="VBoxContainer/PanelContainer/HBoxContainer"]
+margin_left = 811.0
+margin_right = 1010.0
+margin_bottom = 14.0
+size_flags_horizontal = 3
+
+[node name="PanelContainer2" type="PanelContainer" parent="VBoxContainer"]
+margin_top = 32.0
+margin_right = 1024.0
+margin_bottom = 600.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/PanelContainer2"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 1017.0
+margin_bottom = 561.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/PanelContainer2/ScrollContainer"]
+margin_right = 1010.0
+margin_bottom = 554.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ObtenerUsuarios" parent="." instance=ExtResource( 2 )]
+
+[connection signal="request_completed" from="ObtenerUsuarios" to="." method="_on_ObtenerUsuarios_request_completed"]
