@@ -71,21 +71,21 @@ Menciones:
 
 Orden de código simplificado:
 
-01. class_name
-02. "#" docstring
-03. signals
-04. enums
-05. constants
-06. exported variables
-07. public variables
-08. private variables
-09. onready variables
-
-10. optional built-in virtual _init method
-11. built-in virtual _ready method
-12. remaining built-in virtual methods
-13. public methods
-14. private methods
+1. class_name
+2. extends
+3. "#" docstring
+4. signals
+5. enums
+6. constants
+7. exported variables
+8. public variables
+9. private variables
+10. onready variables
+11. optional built-in virtual _init method
+12. built-in virtual _ready method
+13. remaining built-in virtual methods
+14. public methods
+15. private methods
 
 ## -- GENERACIÓN DE EJECUTABLES --
 
