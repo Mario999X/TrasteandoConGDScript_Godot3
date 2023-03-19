@@ -69,7 +69,7 @@ Se obtienen de la siguiente [API](https://jsonplaceholder.typicode.com/) y se ha
 - [Enlace 1](https://www.youtube.com/watch?v=GdEOyWjsWOQ&ab_channel=YusaStudios) -> **Diseño de la tabla**.
 - [Enlace 2](https://www.youtube.com/watch?v=SxbvW73ccxk&ab_channel=GeneralistProgrammer) -> **El como obtener los usuarios de la API**.
 
-## [-- GUÍA DE ESTILOS -- ](https://docs.godotengine.org/es/stable/tutorials/scripting/gdscript/gdscript_styleguide.html)
+## [-- GUÍA DE ESTILO -- ](https://docs.godotengine.org/es/stable/tutorials/scripting/gdscript/gdscript_styleguide.html)
 
 Menciones:
 
