@@ -96,6 +96,10 @@ Orden de código simplificado:
 14. public methods
 15. private methods
 
+## [-- INTEGRACIÓN CON GITHUB --](https://www.youtube.com/watch?v=p45gIhudtSQ&ab_channel=DanielHofmann)
+
+[Github](https://github.com/fenix-hub/godot-engine.github-integration) del plugin.
+
 ## -- GENERACIÓN DE EJECUTABLES --
 
 Se ha seguido la [documentación oficial](https://docs.godotengine.org/es/stable/tutorials/export/exporting_projects.html).
