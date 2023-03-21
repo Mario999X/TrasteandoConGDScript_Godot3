@@ -73,6 +73,10 @@ Se obtienen de la siguiente [API](https://jsonplaceholder.typicode.com/) y se ha
 
 Sencillo ejemplo mostrando un menú de tipo *PopUp* al pulsar con el ratón sobre la pantalla, se realizó con el siguiente [tutorial](https://www.youtube.com/watch?v=ESxRKqdu34M&ab_channel=ContentWonder).
 
+## [Ventana de Diálogo](WindowDialog)
+
+Sencillo ejemplo mostrando una ventana de diálogo con un botón de opciones y un label donde se muestra la opción elegida. Se ha seguido el siguiente [tutorial](https://www.youtube.com/watch?v=WrUULCUUSxk&ab_channel=KrisOcchipinti).
+
 ## [-- GUÍA DE ESTILO -- ](https://docs.godotengine.org/es/stable/tutorials/scripting/gdscript/gdscript_styleguide.html)
 
 Menciones:
