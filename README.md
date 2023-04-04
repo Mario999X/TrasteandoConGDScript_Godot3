@@ -88,7 +88,7 @@ También se soluciono un fallo al escribir espacios en blanco en el buscador y r
 Se ha solucionado un problema con la *gestión de memoria*:
   - Al salir al menú principal desde el **menú de pausa** la escena del nivel no se cerraba adecuadamente.
 
-Se ha agregado una **pantalla de carga** al comenzar una partida:
+Se ha agregado una **pantalla de carga** con una **barra de progreso** al comenzar una partida:
   - Se ha usado el siguiente [tutorial](https://www.youtube.com/watch?v=5aV_GSAE1kM&t=190s).
   - Debido a este nuevo cambio, se aplicó un temporizador mínimo a la bola en su primera aparición, para que el jugador pueda empezar a jugar tranquilamente.
 
