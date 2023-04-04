@@ -77,6 +77,12 @@ Sencillo ejemplo mostrando un menú de tipo *PopUp* al pulsar con el ratón sobr
 
 Sencillo ejemplo mostrando una ventana de diálogo con un botón de opciones y un label donde se muestra la opción elegida. Se ha seguido el siguiente [tutorial](https://www.youtube.com/watch?v=WrUULCUUSxk&ab_channel=KrisOcchipinti).
 
+## [Pantalla de carga](LoadingScreen)
+
+Ejemplo que toma de base el proyecto de [Consumir una API](ConsumeAPI), y soluciona uno de los posibles errores que el usuario puede realizar a proposito o de forma accidental, el **pulsar repetidamente el botón de consulta**, se ha aplicado un menú sencillo que bloquea la posibilidad de accionar de nuevo el botón haciendo uso de señales hasta que la consulta se haya finalizado.
+
+También se soluciono un fallo al escribir espacios en blanco en el buscador y realizar una consulta.
+
 ## [-- GUÍA DE ESTILO -- ](https://docs.godotengine.org/es/stable/tutorials/scripting/gdscript/gdscript_styleguide.html)
 
 Menciones:
