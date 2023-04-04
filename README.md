@@ -79,7 +79,7 @@ Sencillo ejemplo mostrando una ventana de diálogo con un botón de opciones y u
 
 ## [Pantalla de carga](LoadingScreen)
 
-Ejemplo que toma de base el proyecto de [Consumir una API](ConsumeAPI), y soluciona uno de los posibles errores que el usuario puede realizar a proposito o de forma accidental, el **pulsar repetidamente el botón de consulta**, se ha aplicado un menú sencillo que bloquea la posibilidad de accionar de nuevo el botón haciendo uso de señales hasta que la consulta se haya finalizado.
+Ejemplo que toma de base el proyecto de [Consumir una API](ConsumeAPI), y soluciona uno de los posibles errores que el usuario puede realizar a propósito o de forma accidental, el **pulsar repetidamente el botón de consulta**; se ha aplicado una nueva escena sencilla que bloquea la posibilidad de accionar de nuevo el botón haciendo uso de señales hasta que la consulta se haya finalizado.
 
 También se soluciono un fallo al escribir espacios en blanco en el buscador y realizar una consulta.
 
