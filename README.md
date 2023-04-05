@@ -95,7 +95,7 @@ Se ha agregado una **pantalla de carga** con una **barra de progreso** al comenz
 
 ## [Lectura y escritura de ficheros de Configuración Cifrados](LecturaEscrituraFicherosConfigCifrado)
 
-Usando de base el ejemplo realizado en uno de los [proyectos anteriores](LecturaEscrituraFicherosConfig) y siguiendo la [documentación oficial](https://docs.godotengine.org/en/stable/classes/class_configfile.html) y usando la clave para encriptar el archivo propuesta en este [foro](https://godotengine.org/qa/68165/encrypting-a-config-save-file), mostramos como cifrar un archivo de configuración para **evitar** en la medida de lo posible el * **acceso sencillo** a datos sensibles*.
+Usando de base el ejemplo realizado en uno de los [proyectos anteriores](LecturaEscrituraFicherosConfig) y siguiendo la [documentación oficial](https://docs.godotengine.org/en/stable/classes/class_configfile.html) y usando la clave para encriptar el archivo propuesta en este [foro](https://godotengine.org/qa/68165/encrypting-a-config-save-file), mostramos como cifrar un archivo de configuración para **evitar** en la medida de lo posible el ***acceso sencillo** a datos sensibles*.
 
 ## [-- GUÍA DE ESTILO -- ](https://docs.godotengine.org/es/stable/tutorials/scripting/gdscript/gdscript_styleguide.html)
 
