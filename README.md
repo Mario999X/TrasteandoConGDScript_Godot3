@@ -83,6 +83,8 @@ Ejemplo que toma de base el proyecto de [Consumir una API](ConsumeAPI), y soluci
 
 También se soluciono un fallo al escribir espacios en blanco en el buscador y realizar una consulta.
 
+En la V2, se añadió el uso de un *timeout* por si el usuario no tuviese conexión en el momento de realizar la consulta.
+
 ## [Pong Godot V4](PongGodot_V4)
 
 Se ha solucionado un problema con la *gestión de memoria*:
