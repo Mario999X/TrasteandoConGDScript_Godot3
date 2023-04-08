@@ -109,34 +109,20 @@ Se usó ligeramente el siguiente [tutorial](https://www.youtube.com/watch?v=4Xmt
 
 ## [-- GUÍA DE ESTILO -- ](https://docs.godotengine.org/es/stable/tutorials/scripting/gdscript/gdscript_styleguide.html)
 
-Menciones:
-
 - Clases y nodos: PascalCase
 - Funciones y variables: snake_case
   - Uso de _ para funciones/variables privadas
 - Constantes: CONSTANT_CASE
 
-Orden de código simplificado:
+## -- GITHUB --
 
-1. class_name
-2. extends
-3. "#" docstring
-4. signals
-5. enums
-6. constants
-7. exported variables
-8. public variables
-9. private variables
-10. onready variables
-11. optional built-in virtual _init method
-12. built-in virtual _ready method
-13. remaining built-in virtual methods
-14. public methods
-15. private methods
-
-## [-- INTEGRACIÓN CON GITHUB --](https://www.youtube.com/watch?v=p45gIhudtSQ&ab_channel=DanielHofmann)
-
-[Github](https://github.com/fenix-hub/godot-engine.github-integration) del plugin.
+La opción más recomendable es usar Git directamente:
+  - Usando la terminal
+  - Usando clientes de escritorio, como [GitKraken](https://www.gitkraken.com/), [Github Desktop](https://desktop.github.com/), o [VSC](https://code.visualstudio.com/) con los *plugins* que hagan falta.
+  
+  - Los plugins ofrecidos dentro del propio editor no funcionan muy bien:
+    - [Git-Plugin](https://github.com/godotengine/godot-git-plugin)
+    - [GitHub Integration](https://godotengine.org/asset-library/asset/441)
 
 ## -- GENERACIÓN DE EJECUTABLES --
 
