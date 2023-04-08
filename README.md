@@ -99,6 +99,14 @@ Se ha agregado una **pantalla de carga** con una **barra de progreso** al comenz
 
 Usando de base el ejemplo realizado en uno de los [proyectos anteriores](LecturaEscrituraFicherosConfig) y siguiendo la [documentación oficial](https://docs.godotengine.org/en/stable/classes/class_configfile.html) y usando la clave para encriptar el archivo propuesta en este [foro](https://godotengine.org/qa/68165/encrypting-a-config-save-file), mostramos como cifrar un archivo de configuración para **evitar** en la medida de lo posible el ***acceso sencillo** a datos sensibles*.
 
+## [Ejercicio de las cápsulas](EjercicioCapsulas)
+
+Haciendo uso de [Mutex](https://docs.godotengine.org/es/stable/classes/class_mutex.html) y [Thread](https://docs.godotengine.org/en/3.5/classes/class_thread.html), se realiza una réplica del ejercicio de las Cápsulas (adaptado):
+  - Se producen cápsulas que cuentan con un tiempo de lanzamiento, el trabajador que se encargue de esa cápsula tardara ese tiempo en poder ponerse con otra cápsula.
+
+Se usó ligeramente el siguiente [tutorial](https://www.youtube.com/watch?v=4XmtZMvyHZE&list=PLPzj9u0kjrK7J-4HwgdcDOkKSh6ndXIOZ&index=9&ab_channel=BitBirdy), sin tener en cuenta la parte de los *semáforos*.
+
+
 ## [-- GUÍA DE ESTILO -- ](https://docs.godotengine.org/es/stable/tutorials/scripting/gdscript/gdscript_styleguide.html)
 
 Menciones:
