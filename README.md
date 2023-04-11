@@ -106,6 +106,16 @@ Haciendo uso de [Mutex](https://docs.godotengine.org/es/stable/classes/class_mut
 
 Se usó ligeramente el siguiente [tutorial](https://www.youtube.com/watch?v=4XmtZMvyHZE&list=PLPzj9u0kjrK7J-4HwgdcDOkKSh6ndXIOZ&index=9&ab_channel=BitBirdy), sin tener en cuenta la parte de los *semáforos*.
 
+## [Point & Shoot II](PointAndShoot_II)
+
+Versión donde la *diana* dispara balas siguiendo un patrón básico de forma continua. Se ha experimentado con el uso de detecciones entre Area2D y KinematicBody2D.
+
+Se ha seguido el siguiente [tutorial](https://www.youtube.com/watch?v=Z2TaFnN7cdU&t=491s) para el patrón de disparo enemigo.
+
+Se han usado las siguientes fuentes para dos problemas que han surgido en el proceso:
+  - [El problema de generar muchas veces el mismo objeto](https://godotengine.org/qa/38519/sometimes-collision-detection-of-area2d-doesnt-work)
+  - [Enviar señales de una bala enemiga al jugador](https://godotengine.org/qa/37080/sending-signals-from-one-scene-to-other)
+
 
 ## [-- GUÍA DE ESTILO -- ](https://docs.godotengine.org/es/stable/tutorials/scripting/gdscript/gdscript_styleguide.html)
 
