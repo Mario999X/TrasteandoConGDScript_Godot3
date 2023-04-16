@@ -122,7 +122,7 @@ Versión actualizada con un *Sprite en **movimiento*** durante la pantalla de ca
 
 ## [Cambio de Escenas II](SceneChange_II)
 
-Versión con animación entre cambios de escena. Se siguió el siguiente [tutorial](https://www.youtube.com/watch?v=yZQStB6nHuI&ab_channel=TheShaggyDev)
+Versión con animación entre cambios de escena. Se siguió el siguiente [tutorial](https://www.youtube.com/watch?v=yZQStB6nHuI&ab_channel=TheShaggyDev).
 
 ## [-- GUÍA DE ESTILO -- ](https://docs.godotengine.org/es/stable/tutorials/scripting/gdscript/gdscript_styleguide.html)
 
