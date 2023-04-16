@@ -116,6 +116,10 @@ Se han usado las siguientes fuentes para dos problemas que han surgido en el pro
   - [El problema de generar muchas veces el mismo objeto](https://godotengine.org/qa/38519/sometimes-collision-detection-of-area2d-doesnt-work)
   - [Enviar señales de una bala enemiga al jugador](https://godotengine.org/qa/37080/sending-signals-from-one-scene-to-other)
 
+## [Pantalla de carga II](LoadingScreen_II)
+
+Versión actualizada con un *Sprite en **movimiento*** durante la pantalla de carga.
+
 
 ## [-- GUÍA DE ESTILO -- ](https://docs.godotengine.org/es/stable/tutorials/scripting/gdscript/gdscript_styleguide.html)
 
