@@ -1,0 +1,65 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Main.gd" type="Script" id=1]
+[ext_resource path="res://fonts/Xolonium-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://LoadScreen.tscn" type="PackedScene" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 2 )
+
+[node name="Main" type="Node"]
+script = ExtResource( 1 )
+
+[node name="BotonConsulta" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -86.0
+margin_top = -128.0
+margin_right = 87.0
+margin_bottom = -102.0
+custom_fonts/font = SubResource( 1 )
+text = "Consultar Pokémon"
+
+[node name="JsonRecibido" type="Label" parent="."]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_top = -66.0
+margin_bottom = 197.0
+text = "JSON RECIBICIDO (visible parcialmente)"
+autowrap = true
+clip_text = true
+
+[node name="InformacionObtenida" type="Label" parent="."]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -64.0
+custom_fonts/font = SubResource( 1 )
+text = "INFORMACION OBTENIDA DEL JSON"
+align = 1
+valign = 1
+
+[node name="HTTPRequestPokemon" type="HTTPRequest" parent="."]
+timeout = 10.0
+
+[node name="Busqueda" type="LineEdit" parent="."]
+anchor_right = 1.0
+margin_bottom = 139.0
+custom_fonts/font = SubResource( 2 )
+text = "INTRODUZCA EL NOMBRE O ID DEL POKEMON A MOSTRAR"
+align = 1
+
+[node name="LoadScreen" parent="." instance=ExtResource( 3 )]
+visible = false
+
+[connection signal="request_over" from="." to="LoadScreen" method="_on_Main_request_over"]
+[connection signal="request_time" from="." to="LoadScreen" method="_on_Main_request_time"]
+[connection signal="pressed" from="BotonConsulta" to="." method="_on_BotonConsulta_pressed"]
+[connection signal="request_completed" from="HTTPRequestPokemon" to="." method="_on_HTTPRequestPokemon_request_completed"]
+[connection signal="focus_entered" from="Busqueda" to="." method="_on_LineEdit_focus_entered"]
