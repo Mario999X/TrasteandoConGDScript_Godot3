@@ -131,7 +131,7 @@ Versión con animación entre cambios de escena. Se siguió el siguiente [tutori
   - Uso de _ para funciones/variables privadas
 - Constantes: CONSTANT_CASE
 
-## -- GITHUB --
+## -- Control de versiones con Git --
 
 La opción más recomendable es usar Git directamente:
   - Usando la terminal
