@@ -148,4 +148,8 @@ Para realizar las distintas exportaciones, se requiere la descarga de las planti
 
 Para exportar el *icono* de la aplicación en windows, será necesario usar una herramienta extra llamada [rcedit](https://github.com/electron/rcedit/releases), como bien se menciona en otro punto de la [documentación](https://docs.godotengine.org/es/stable/tutorials/export/changing_application_icon_for_windows.html). 
 
+- [Página recomendada para exportar de PNG a ICO](https://png2icojs.com/)
+
+**Importante**, manejar correctamente donde se almacena la información persistente del usuario siguiendo la [documentación oficial](https://docs.godotengine.org/en/3.5/tutorials/io/data_paths.html)
+
 Finalmente, se siguió el siguiente [tutorial](https://www.youtube.com/watch?v=nyHFFL_A3aM&ab_channel=MartinSenges).
