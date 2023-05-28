@@ -124,7 +124,7 @@ Versión actualizada con un *Sprite en **movimiento*** durante la pantalla de ca
 
 Versión con animación entre cambios de escena. Se siguió el siguiente [tutorial](https://www.youtube.com/watch?v=yZQStB6nHuI&ab_channel=TheShaggyDev).
 
-## [Práctica con una explosión de partículas](ExplosionParticles)
+## [Práctica con una explosión con partículas](ExplosionParticles)
 
 Pequeña prueba con partículas simulando una explosión. Se siguió el siguiente [tutorial](https://www.youtube.com/watch?v=kWGCLI1iMjE&ab_channel=TheDevDoc)
 
