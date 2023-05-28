@@ -124,6 +124,10 @@ Versión actualizada con un *Sprite en **movimiento*** durante la pantalla de ca
 
 Versión con animación entre cambios de escena. Se siguió el siguiente [tutorial](https://www.youtube.com/watch?v=yZQStB6nHuI&ab_channel=TheShaggyDev).
 
+## [Práctica con una explosión de partículas](ExplosionParticles)
+
+Pequeña prueba con partículas simulando una explosión. Se siguió el siguiente [tutorial](https://www.youtube.com/watch?v=kWGCLI1iMjE&ab_channel=TheDevDoc)
+
 ## [-- GUÍA DE ESTILO -- ](https://docs.godotengine.org/es/stable/tutorials/scripting/gdscript/gdscript_styleguide.html)
 
 - Clases y nodos: PascalCase
